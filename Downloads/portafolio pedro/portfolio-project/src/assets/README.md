@@ -1,0 +1,1 @@
+# Este archivo contiene información sobre los activos utilizados en el portafolio, como imágenes o fuentes.
