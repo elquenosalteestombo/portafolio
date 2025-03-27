@@ -26,7 +26,6 @@ h1 {
     letter-spacing: 2px; /* Espaciado entre letras */
     color: #ffcc00; /* Cambiar el color del texto */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para el texto */
-
 }
 
 nav {
@@ -35,7 +34,7 @@ nav {
 
 nav a {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: none;  
     margin: 0 15px;
 }
 
@@ -43,15 +42,25 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Secciones generales */
-section {
-    padding: 50px 20px;
+.card {
     margin: 20px auto;
-    max-width: 800px;
-    background: rgba(255, 255, 255, 0.05); /* Fondo semitransparente */
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra */
-    text-align: center;
+    padding: 20px;
+    background-color: #000000; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    max-width: 800px; /* Maximum width for the card */
+    text-align: center; /* Center text */
+}
+
+/* Estilo para el botón de GitHub */
+.github-button {
+    display: inline-block;
+    margin-top: 10px;
+    transition: transform 0.3s;
+}
+
+.github-button:hover {
+    transform: scale(1.1);
 }
 
 /* Títulos de las secciones */
@@ -76,7 +85,7 @@ footer {
     text-align: center;
     padding: 20px 0;
     background: rgba(0, 0, 0, 0.9); /* Fondo oscuro */
-    color: #ffffff;
+    color: #101010;
     font-size: 0.9rem;
     position: relative;
     bottom: 0;
@@ -150,4 +159,3 @@ footer {
     background: radial-gradient(circle, rgba(0, 0, 0, 0.8), #000000);
     z-index: 1;
 }
-
